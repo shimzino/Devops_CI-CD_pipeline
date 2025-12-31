@@ -19,7 +19,7 @@ body {
 
 .left-panel {
     width: 50%;
-    background-color: #008000; /* turquoise-like colour */
+    background-color: #54e06e; /* turquoise-like colour */
     padding: 25px 40px;
     display: flex;
     flex-direction: column;
