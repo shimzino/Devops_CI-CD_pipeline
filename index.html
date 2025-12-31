@@ -3,37 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Dezigner Zone - Affordable Clothing</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Temporary inline CSS for demo */
-        .right-panel {
-            position: relative;
-            padding: 20px;
-        }
-        .top-square img {
-            width: 60px;  /* Adjust size as needed */
-            height: 60px;
-            object-fit: cover;
-            border-radius: 5px; /* small rounding for square */
-        }
-        .image-placeholder.large {
-            width: 200px;  /* Rectangle size */
-            height: 120px;
-            background-image: url('https://share.google/images/wGcug6sbdrWYnbxQS');
-            background-size: cover;
-            background-position: center;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-        .image-placeholder.circle {
-            width: 100px;
-            height: 100px;
-            background-image: url('https://share.google/images/rzzA7eTXZVZSTGGfK');
-            background-size: cover;
-            background-position: center;
-            border-radius: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <div class="page-wrapper">
@@ -41,7 +11,8 @@
         <section class="left-panel">
             <header class="top-bar">
                 <div class="logo-box">
-                    <span class="logo-text">DEZIGNER ZONE</span>
+<img src="./image/logo.jpeg" class="" alt="Shirt" style="width: 100px;">
+                    <!-- <span class="logo-text">DEZIGNER ZONE</span> -->
                 </div>
                 <nav class="nav-links">
                     <a href="#">Men</a>
@@ -79,11 +50,7 @@
 
         <!-- RIGHT SIDE -->
         <section class="right-panel">
-            <!-- Top square image -->
             <header class="right-top">
-                <div class="top-square">
-                    <img src="https://share.google/images/06acT6L1v0fgP2P2C" alt="Top Icon">
-                </div>
                 <div class="login-area">
                     <span class="icon">👤</span>
                     <a href="#">Login</a>
@@ -94,8 +61,11 @@
             </header>
 
             <!-- Picture placeholders -->
-            <div class="image-placeholder large"></div>
-            <div class="image-placeholder circle"></div>
+            <!-- Real images -->
+             <div class="images-div">
+<img src="./image/shirt.jpeg" class="image large" alt="Shirt" style="margin-bottom: 80px;">
+<img src="./image/shoes pic.jpeg" class="image circle" alt="Logo">
+</div> 
         </section>
     </div>
 </body>
